@@ -9,25 +9,28 @@
 </head>
 <body>
     
-     <section class="godFather">
+    <section class="godFather">
         <h1>Game of 5</h1>
         <div class="scoreWrap">
-            <p>You: <span class="userScoreText"></span></p>
-            <p>Computer: <span class="computerScoreText"></span></p>
+            <p class="score user">You: <span class="userScoreText">0</span></p>
+            <p class="score comp">Computer: <span class="computerScoreText">0</span></p>
         </div>
         <div class="buttonWrap">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissors">Scissors</button>
+            <button class="chooseBtn R">Rock</button>
+            <button class="chooseBtn P">Paper</button>
+            <button class="chooseBtn S">Scissors</button>
         </div>
 
+        <p class="alertText">Alert</p>
+
+       
+
     </section>
 
-    <section class="endScreen" style="display: none;">
-        <h1>Game over</h1>
+    <section class="endScreen">
+        <h1 class="endText">Game over</h1>
         <button class="restartBtn">Play again</button>
     </section>
-
 
     <script src="java.js"></script>
 </body>
